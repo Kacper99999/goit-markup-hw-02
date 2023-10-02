@@ -1,0 +1,56 @@
+
+.link:hover{
+    color:#4D5AE5
+}
+.link:focus{
+    color:#4D5AE5
+}
+
+.filters-list:hover{
+    color: #4D5AE5;
+    cursor: pointer;
+}
+.filter-list:focus{
+    color:#4D5AE5
+}
+
+:root{
+    
+    --Primary-Brand:#4D5AE5;
+
+    --Pressed-state:#404BBF;
+
+    --Dark:#2E2F42;
+        
+    --Success:#31D0AA;
+
+    --Text:#434455;
+
+    --Subtle-Text:#8E8F99;
+
+    --Accent:#E7E9FC;
+
+    --Light:#F4F4FD;
+
+    --Modal-overlay:#2E2F42;
+
+    --Hero-background:#2E2F42;
+
+    --White-background:#FFFFFF;
+
+    --Modal-background:#FCFCFC;
+
+}
+
+body{
+    color:var(--Text);
+    font-family: Roboto, sans-serif;
+
+}
+
+.text{
+    font-size: 16px;
+    line-height: 1,5;
+    color:var(--Text);
+    font-weight: 400;
+}
