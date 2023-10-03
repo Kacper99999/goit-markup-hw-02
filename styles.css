@@ -1,17 +1,26 @@
 
 .link:hover{
-    color:#4D5AE5
+    color:var(--Pressed-state)
+}
+
+.link:active{
+    color: var(--Pressed-state);
 }
 .link:focus{
     color:#4D5AE5
 }
 
-.filters-list:hover{
-    color: #4D5AE5;
+.button:hover{
+    color: #FFFFFF;
+    background-color: #404BBF;
     cursor: pointer;
 }
-.filter-list:focus{
+.button:focus{
     color:#4D5AE5
+}
+.button:active{
+    color: #FFFFFF;
+    background-color: #404BBF;
 }
 
 :root{
@@ -45,12 +54,69 @@
 body{
     color:var(--Text);
     font-family: Roboto, sans-serif;
+    background-color: var(--White-background);
 
 }
 
 .text{
     font-size: 16px;
-    line-height: 1,5;
+    line-height: 1.5;
     color:var(--Text);
     font-weight: 400;
+    letter-spacing: 0.02em;
+}
+
+.list{
+    list-style: none;
+    
+}
+
+.button{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,5;
+    letter-spacing: 0.04em;
+    color: #4D5AE5;
+    background-color: #F4F4FD;
+}
+
+
+.headline{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color:#2E2F42
+}
+
+.footer{
+    background-color:var(--Dark);
+}
+
+.logo{
+    font-family: Ralewaw,sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color:var(--Primary-Brand);
+    text-decoration: none;
+}
+
+.span{
+    color: var(--Light);
+}
+
+.link{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--Dark);
+    text-decoration: none;
+}
+
+.adres{
+    font-style: normal;
 }
