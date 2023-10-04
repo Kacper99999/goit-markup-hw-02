@@ -7,7 +7,7 @@
     color: var(--Pressed-state);
 }
 .link:focus{
-    color:#4D5AE5
+    color:var(--Pressed-state)
 }
 
 .button:hover{
@@ -16,7 +16,8 @@
     cursor: pointer;
 }
 .button:focus{
-    color:#4D5AE5
+    color:var(--White-background);
+    background-color:var(--Pressed-state);
 }
 .button:active{
     color: #FFFFFF;
@@ -72,9 +73,11 @@ body{
 }
 
 .button{
+    cursor: pointer;
+    font-family: Roboto , sans-serif;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1,5;
+    line-height: 1.5;
     letter-spacing: 0.04em;
     color: #4D5AE5;
     background-color: #F4F4FD;
@@ -86,7 +89,7 @@ body{
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color:#2E2F42
+    color:var(--Dark)
 }
 
 .footer{
@@ -94,7 +97,7 @@ body{
 }
 
 .logo{
-    font-family: Ralewaw,sans-serif;
+    font-family: Raleway,sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
@@ -104,11 +107,16 @@ body{
     text-decoration: none;
 }
 
-.span{
+.span-header{
+    color: var(--Dark);
+}
+
+.span-footer{
     color: var(--Light);
 }
 
 .link{
+    color:var(--Text);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
