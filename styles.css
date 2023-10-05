@@ -10,11 +10,14 @@
     color:var(--Pressed-state)
 }
 
+.main-button:hover,
 .button:hover{
     color: #FFFFFF;
     background-color: #404BBF;
     cursor: pointer;
 }
+
+.main-button:focus,
 .button:focus{
     color:var(--White-background);
     background-color:var(--Pressed-state);
@@ -91,6 +94,7 @@ body{
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: var(--White-background);
+    background-color: var(--Primary-Brand);
 
 }
 
@@ -101,6 +105,14 @@ body{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color:var(--Dark)
+}
+
+.headline-2{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--Dark);
 }
 
 .footer{
@@ -152,3 +164,4 @@ body{
 .section{
     background-color:var(--Hero-background);
 }
+
