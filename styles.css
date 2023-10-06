@@ -1,4 +1,5 @@
 
+.empty-link:hover,
 .link:hover{
     color:var(--Pressed-state)
 }
@@ -6,6 +7,8 @@
 .link:active{
     color: var(--Pressed-state);
 }
+
+.empty-link:focus,
 .link:focus{
     color:var(--Pressed-state)
 }
@@ -110,6 +113,7 @@ body{
 .headline-2{
     font-size: 36px;
     line-height: 1.11;
+    letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
     color: var(--Dark);
@@ -129,12 +133,22 @@ body{
 }
 
 .link{
+    color:var(--Dark);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--Dark);
+    text-decoration: none;
+}
+
+.empty-link{
     color:var(--Text);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--Text);
+    color: var(--Dark);
     text-decoration: none;
 }
 
@@ -164,6 +178,7 @@ body{
 }
 
 .section{
-    background-color:var(--Light);
+    background-color:var(--Hero-background);
 }
+
 
