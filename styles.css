@@ -179,3 +179,7 @@ body{
 .sectiondwa{
     background-color: var(--Light);
 }
+
+.firstpoint{
+    background-color: var(--White-background);
+}
