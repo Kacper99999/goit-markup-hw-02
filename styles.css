@@ -142,14 +142,9 @@ body{
     text-decoration: none;
 }
 
-.empty-link{
+.empty{
     color:var(--Text);
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--Dark);
-    text-decoration: none;
+    
 }
 
 
@@ -181,4 +176,6 @@ body{
     background-color:var(--Hero-background);
 }
 
-
+.section-2{
+    background-color: var(--Light);
+}
