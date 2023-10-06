@@ -134,7 +134,7 @@ body{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--Dark);
+    color: var(--Text);
     text-decoration: none;
 }
 
@@ -164,6 +164,6 @@ body{
 }
 
 .section{
-    background-color:var(--Hero-background);
+    background-color:var(--Light);
 }
 
