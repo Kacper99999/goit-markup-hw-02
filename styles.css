@@ -110,7 +110,7 @@ body{
     color:var(--Dark)
 }
 
-.headline2{
+.headlinedwa{
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
@@ -176,6 +176,6 @@ body{
     background-color:var(--Hero-background);
 }
 
-.section2{
+.sectiondwa{
     background-color: var(--Light);
 }
