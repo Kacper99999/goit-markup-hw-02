@@ -1,30 +1,13 @@
 
 :root{
-    
-    --Primary-Brand:#4D5AE5;
-
-    --Pressed-state:#404BBF;
-
     --Dark:#2E2F42;
-        
-    --Success:#31D0AA;
+    --White-background:#FFFFFF;    
+    --Primary-Brand:#4D5AE5;
+   --Modal-overlay:#2E2F42;
+   --Pressed-state:#404BBF;
 
-    --Text:#434455;
-
-    --Subtle-Text:#8E8F99;
-
-    --Accent:#E7E9FC;
-
-    --Light:#F4F4FD;
-
-    --Modal-overlay:#2E2F42;
-
-    --Hero-background:#2E2F42;
-
-    --White-background:#FFFFFF;
-
-    --Modal-background:#FCFCFC;
-
+--Light:#F4F4FD;
+--Accent:#E7E9FC;
 }
 
 body{
